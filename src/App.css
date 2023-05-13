@@ -36,3 +36,140 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  height: 100%;
+  background-color: #391d67;
+  background-image: linear-gradient(225deg, #391d67 0%, #2b1565 50%, #2c1d67 100%);
+  color: whitesmoke;
+  font-family: 'Chakra Petch', cursive;
+}
+html {
+  scroll-snap-type: mandatory;
+  scroll-behavior:smooth ;
+}
+.card-style {
+  font-family: 'Lexend Deca';
+  background-color: #131728a7 ;
+  border: none;
+  border-radius: 10%;
+  animation: fade 1s ease-in both;
+
+ 
+}
+.cv-image {
+  border-radius: 100%;
+  
+}
+.skill-bar {
+background-color:  #ba6dd8;  
+color: black;
+color: whitesmoke;
+}
+.progress-container {
+  background-color: rgb(41, 24, 80)  ;
+  border: 1px solid black;
+  height: 2.4%;
+
+}
+
+.nav {
+  background-color:#1f133e;
+  font-family: 'Lexend Deca';
+
+  
+}
+
+.header {
+  height: 100vh;
+
+}
+ 
+.astro {
+  width: 100%;
+  animation: fadeIn 1.5s ease-in both;
+  height: 100%;
+}
+
+
+.titulo {
+  font-size: 7vh;
+  color: whitesmoke;
+  background-image: url(https://media1.giphy.com/media/dYtHPYJxZblCcWPwcQ/200w.webp?cid=ecf05e47hgejsvhb1ymm21javo51rxjbgg9i8al7t19j4e6d&ep=v1_gifs_search&rid=200w.webp&ct=g);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+  animation: fadeIn 1.5s ease-in both;
+
+}
+.subtitulo {
+  background-image: url(https://media1.giphy.com/media/dYtHPYJxZblCcWPwcQ/200w.webp?cid=ecf05e47hgejsvhb1ymm21javo51rxjbgg9i8al7t19j4e6d&ep=v1_gifs_search&rid=200w.webp&ct=g);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+  animation: fadeIn 1.5s ease-in both;
+
+}
+.titulo:hover {
+  font-size: 7.5vh;
+  transition: 1s ease-in-out;
+}
+
+@keyframes float {
+  0% {
+
+    transform: translatey(0px);
+  }
+
+  50% {
+
+    transform: translatey(-20px);
+  }
+
+  100% {
+
+    transform: translatey(0px);
+  }
+}
+
+.about-me {
+  height: 100vh;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.divider1{
+  border-bottom: 1px solid rgba(245, 245, 245, 0.242);
+}
+.skills {
+  font-family: 'Lexend Deca';
+
+}
+h1 {
+  font-family: 'Chakra Petch';
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.works {
+  height: 100vh;
+}
