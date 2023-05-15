@@ -8,13 +8,13 @@ const AboutMe = () => {
 
     return (
         <>
-            <div className="container about-me">
-            <h1 className="">About me</h1>
+            <div  className="container about-me ">
+            <h1  id="about" className="">About me</h1>
 
                 <div className="row">
-                    <div className="col-lg-6  mt-5">
-                        <div class="card card-style" style={{ width:'83%'}}>
-                            <img src="./image/cv.png" class="cv-image" alt="..." />
+                    <div className="col-lg-6 col-sm-12  mt-4">
+                        <div class="card card-style" style={{ width:'83%'}} >
+                            <img src="./image/cv.png" class="cv-image"  alt="..." />
                             <br></br>
                             <div class="card-body">
                                 <h1 class="card-title text-light mb-3 fs-1 ">Tadeo Barzelli</h1>
@@ -24,7 +24,7 @@ const AboutMe = () => {
 
                         </div>
                     </div>
-                    <div className="col-lg-6 mt-5 skills">
+                    <div className="col-lg-6 mt-4 skills">
                         <h1>Habilidades</h1>
                         <p className="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, ut?</p>
                         <div class="progress mt-5 mb-5 progress-container" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
