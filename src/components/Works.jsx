@@ -14,8 +14,8 @@ const Works = () => {
             <div className="container" id="works">
                 <div className="row">
                     <div className="col-12 header">
-                        <h1 className="">Works</h1>
-                        <h3 className="mb-5 mt-3">Aqui podras encontrar mis proyectos y trabajos!</h3>
+                        <h1 className="mb-3 mt-5 titulos-secciones">Mis proyectos :)</h1>
+                        <br></br>
                         <Swiper
                             effect={'coverflow'}
                             grabCursor={true}
@@ -39,20 +39,20 @@ const Works = () => {
                         >
                             <SwiperSlide>
                                 <h4>1</h4>
-                                <img src="./image/inesperada.jpg" style={{ height: '100%', width:'100%'  }} alt="slide_image" />
+                                <img src="./image/noimage.jpg"  style={{ height: '100%', width:'100%'  }} alt="slide_image" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <h4>2</h4>
-                                <img src="./image/inesperada.jpg" style={{ height: '100%', width:'100%' }} alt="slide_image" />
+                                <img src="./image/noimage.jpg" style={{ height: '100%', width:'100%' }} alt="slide_image" />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <h4>3</h4>
-                                <img src="./image/inesperada.jpg" style={{ height: '100%', width:'100%' }} alt="slide_image" />
+                                <img src="./image/noimage.jpg" style={{ height: '100%', width:'100%' }} alt="slide_image" />
 
                             </SwiperSlide>
                             <SwiperSlide>
                                 <h4>Titulo4</h4>
-                                <img src="./image/inesperada.jpg" style={{ height: '100%', width:'100%' }} alt="slide_image" />
+                                <img src="./image/noimage.jpg" style={{ height: '100%', width:'100%' }} alt="slide_image" />
                             </SwiperSlide>
 
 
